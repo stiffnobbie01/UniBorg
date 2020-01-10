@@ -39,7 +39,7 @@ async def _(event):
             "`cracking... 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`cracking... 69%\n█████████████████████▒▒▒▒ `",
             "`cracking... 100%\n█████████HACKED███████████ `",
-            "`Account cracked...\n\nPay 69$ To Satwik ro get id and password `"
+            "`Account cracked...\n\nPay 2000 Rupees To Stiff to get id and password.. And Enjoy 4screen hd `"
         ]
 
         for i in animation_ttl:
