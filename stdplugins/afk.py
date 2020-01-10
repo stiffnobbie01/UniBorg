@@ -109,7 +109,7 @@ async def on_afk(event):
         message_to_reply = f"Msg Kar Diya ab Moj le...  \n\n**Last Seen: Only God Knows.** " + \
             f"\n\n__Reason:__ {reason}" \
             if reason \
-            else f"RIP.....\n\n**Important Notice**\n\n[I Away From Keyboard \n\n Leave Your Message and wait 2000 years ...](https://telegra.ph//file/a53fa950ff31781d5930a.jpg)"
+            else f"\n\n**Important Notice**\n\n[I Away From Keyboard \n\n Leave Your Message and wait 2000 years ...]"
         msg = await event.reply(message_to_reply)
         await asyncio.sleep(5)
         if event.chat_id in borg.storage.last_afk_message:  # pylint:disable=E0602
