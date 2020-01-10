@@ -1,5 +1,5 @@
 """command: .kk
-By- @stiff nobbie """
+By- @grandpaa please """
 
 
 from telethon import events
