@@ -13,7 +13,7 @@ async def _(event):
            input_str = event.pattern_match.group(1)
            if input_str == "alive":
                  await event.reply("`"
-                     "My bot is running \n\n"
+                     "My bot is running Wow.. \n\n"
                      f"Telethon version: 1.10 \n"
                      f"Python: 3.8 \n"
                      f"User: {DEFAULTUSER}"
