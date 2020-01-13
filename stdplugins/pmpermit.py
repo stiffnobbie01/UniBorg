@@ -19,7 +19,7 @@ borg.storage.PREV_REPLY_MESSAGE = {}
 BAALAJI_TG_USER_BOT = "My Master hasn't approved you to PM."
 TG_COMPANION_USER_BOT = "Please wait for his response and don't spam his PM."
 UNIBORG_USER_BOT_WARN_ZERO = "You were spamming my master's PM.You have been blocked"
-UNIBORG_USER_BOT_NO_WARN = "Hi!This is a bot. My master don't accept PM from strangers,so contact him in group and don't spam his PM else you will be blocked."
+UNIBORG_USER_BOT_NO_WARN = "Hi!This is a bot. My master don't accept PM from strangers,so contact him in group and don't spam his PM else you will be blocked.When you meet the right man, the list of things you would never do suddenly becomes much shorter"
 
 @borg.on(events.NewMessage(incoming=True, func=lambda e: e.is_private))
 async def monito_p_m_s(event):
@@ -68,8 +68,8 @@ async def approve_p_m(event):
                     await borg.storage.PREV_REPLY_MESSAGE[chat.id].delete()
                     del borg.storage.PREV_REPLY_MESSAGE[chat.id]
                 approve(chat.id, reason)
-                await event.edit("Private Message Accepted")
-                await asyncio.sleep(3)
+                await event.edit("Private Message Accepted Now You can Talk to me ... #Dil bda hai na mera")
+                await asyncio.sleep(10)
                 await event.delete()
 
 
